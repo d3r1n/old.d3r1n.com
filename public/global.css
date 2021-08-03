@@ -1,0 +1,154 @@
+body {
+	font-family: 'JetBrains Mono', monospace;
+	background: #282a36;
+}
+
+.mainConteiner {
+	display: flex;
+	justify-content: center;
+}
+
+
+a {
+	text-decoration: none;
+	color: none;
+}
+
+/*--------------- Profile Card ---------------------*/
+#profile_card {
+	grid-column-start: 1;
+	grid-column-end:2;
+	margin-top: 50px;
+	width: 500px;
+	height: 700px;
+	border: 10px solid #39375b;
+	background: #1F1F1F;
+	border-radius: 25px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#links, #name, #avatar {
+	display: flex;
+	justify-content: center;
+}
+
+#presence {
+	display: flex;
+	margin-left: 50px;
+	flex-direction: column;
+	width: 80%;
+}
+
+#avatar img {
+	border-radius: 200px;
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+	border: 10px solid #44475a;
+}
+
+#name__text {
+	color: #f8f8f2;
+}
+
+#name__tag {
+	color: #50fa7b;
+}
+
+#name__tag, #name__text {
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+#spacer {
+	display: flex;
+	justify-self: center;
+
+	width: 400px;
+	height: 5px;
+	border-radius: 200px;
+	background-color: #44475a;
+
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#content {
+	color: #f8f8f2;
+	justify-self: center;
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+#author {
+	color: #bd93f9;
+	justify-self: center;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+#github, #spotifyIcon, #discord {
+	font-size: 30px;
+	color: #44475a;
+	padding: 10px;
+	margin-top: 25px;
+	transition: all 0.5s ease-in-out
+}
+
+#github:hover, #spotifyIcon:hover, #discord:hover {
+	font-size: 35px;
+	color: #6272a4;
+
+}
+
+#online {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 200px;
+	margin-left: 323px;
+	margin-top: 180px;
+	background-color: #43b581;
+}
+
+#offline {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 200px;
+	margin-left: 323px;
+	margin-top: 180px;
+	background-color: #99aab5;
+}
+
+#spotify-btn {
+	position: absolute;
+}
+
+@keyframes smooth-shake {
+	0%,
+	to {
+	    -webkit-transform: translateY(5px);
+	    transform: translateY(5px);
+	}
+	50% {
+	    -webkit-transform: translateY(-10px);
+	    transform: translateY(-10px);
+	}
+}
+
+
+#spotify-btn i {
+	font-size: 30px;
+	color: #ff79c6;
+	margin-top: 75px;
+	margin-left: 375px;
+	animation: smooth-shake 5s ease-in-out infinite;
+}
+
+#spotify-btn i:hover {
+	cursor: pointer;
+	animation-play-state: paused;
+}
+
+/*--------------- Profile Card ---------------------*/
