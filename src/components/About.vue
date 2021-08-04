@@ -2,8 +2,8 @@
 	<div class="about">
 		<p id="text">
 			Welcome to my website! <br />I'm <span id="about_name">d3r1n</span>,
-			I'm 15 years old self-tought programmer...
-			I like computers, electronics, and science!
+			I'm 15 years old self-tought programmer... <br />
+			I like computers, electronics, and science! <br />
 			I'm also into sports. I row professionaly at <span id="gs1">Galata</span><span id="gs2">saray</span>'s Rowing Team and I like body building like stuff.
 		</p>
 
@@ -162,6 +162,7 @@ export default {
 
 #skills {
 	margin-left: 20px;
+	height: 400px;
 	margin-top: 100px;
 	display: flex;
 	flex-direction: row;
@@ -177,6 +178,7 @@ export default {
 	justify-content: center;
 	height:75px;
 	width: 150px;
+	transition: all 1s ease;
 	/* background: linear-gradient(45deg, rgba(247,37,133,1) 0%, rgba(72,149,239,1) 100%); */
 }
 
@@ -202,6 +204,7 @@ export default {
 
 .skill:hover {
     background: linear-gradient(270deg, #fe94ff, #00197d);
+    transform: rotate(10deg);
     background-size: 400% 400%;
 
     -webkit-animation: gradient-scroll 5s ease infinite;

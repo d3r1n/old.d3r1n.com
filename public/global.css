@@ -96,7 +96,7 @@ a {
 }
 
 #github:hover, #spotifyIcon:hover, #discord:hover {
-	font-size: 35px;
+	transform: scale(1.5);
 	color: #6272a4;
 
 }
