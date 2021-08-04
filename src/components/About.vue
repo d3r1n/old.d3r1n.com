@@ -4,7 +4,7 @@
 			Welcome to my website! <br />I'm <span id="about_name">d3r1n</span>,
 			I'm 15 years old self-tought programmer... <br />
 			I like computers, electronics, and science! <br />
-			I'm also into sports. I row professionaly at <span id="gs1">Galata</span><span id="gs2">saray</span>'s Rowing Team and I like body building like stuff.
+			I'm also into sports. I row professionaly at <span id="gs1">Galata</span><span id="gs2">saray</span>'s Rowing Team and I like body building kinda stuff.
 		</p>
 
 		<div id="skills">
@@ -55,7 +55,7 @@ let skillArray = [
 	},
 	{
 		name: "Vue",
-		url:"vuejs.org",
+		url:"https://vuejs.org",
 		id: "vue"
 	},
 	{

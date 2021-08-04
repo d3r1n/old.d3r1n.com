@@ -143,12 +143,13 @@ a {
 	color: #ff79c6;
 	margin-top: 75px;
 	margin-left: 375px;
-	animation: smooth-shake 5s ease-in-out infinite;
+	animation: smooth-shake 4s ease-in-out infinite;
 }
 
 #spotify-btn i:hover {
 	cursor: pointer;
 	animation-play-state: paused;
+
 }
 
 /*--------------- Profile Card ---------------------*/
