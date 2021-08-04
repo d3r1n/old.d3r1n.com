@@ -61,8 +61,7 @@ export default {
 		this.activity.content = quote.content
 		this.activity.author = quote.author
 
-		let favicon = document.createElement("link").createAttribute("rel", "icon").createAttribute("href", `https://cdn.discordapp.com/avatars/${this.lanyard.discord_user.id}/${this.lanyard.discord_user.avatar}.png?size=512`).createAttribute("type", "image/png")
-		document.head.appendChild(favicon)
+		document.getElementById("favicon").setAttribute("href", `https://cdn.discordapp.com/avatars/${this.lanyard.discord_user.id}/${this.lanyard.discord_user.avatar}.png?size=512`)
 		// <link rel="icon" type="image/png" href="https://example.com/favicon.png"/>
 	},
 	methods: {
