@@ -155,7 +155,7 @@ export default {
 
 .about #text {
 	color: #f8f8f2;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-left: 20px;
 	font-size: 20px;
 }
@@ -163,7 +163,7 @@ export default {
 #skills {
 	margin-left: 20px;
 	height: 400px;
-	margin-top: 100px;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
 	overflow: auto;
@@ -174,7 +174,7 @@ export default {
 	display: flex;
 	border: 3px #f8f8f2 solid;
 	margin:10px;
-	border-radius: 25px;
+	border-radius: 15px;
 	justify-content: center;
 	height:75px;
 	width: 150px;
