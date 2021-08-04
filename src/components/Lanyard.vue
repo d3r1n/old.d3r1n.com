@@ -22,9 +22,9 @@
 	</div>
 
 	<div id="links">
-		<a href="https://github.com/d3r1n"><i class="fab fa-github" id="github"></i></a>
-		<a href="https://open.spotify.com/user/derin9999"><i class="fab fa-spotify" id="spotifyIcon"></i></a>
-		<a href="https://discord.com/users/704758931343278162"><i class="fab fa-discord" id="discord"></i></a>
+		<a href="https://github.com/d3r1n" target="_blank"><i class="fab fa-github" id="github"></i></a>
+		<a href="https://open.spotify.com/user/derin9999" target="_blank"><i class="fab fa-spotify" id="spotifyIcon"></i></a>
+		<a href="https://discord.com/users/704758931343278162" target="_blank"><i class="fab fa-discord" id="discord"></i></a>
 	</div>
 
   </div>

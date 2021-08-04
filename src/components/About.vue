@@ -9,7 +9,7 @@
 
 		<div id="skills">
 				<span v-for="skill in skillArray" :key="skill.id" :id="skill.id" class="skill">
-					<a :href="skill.url"><p>{{ skill.name }}</p></a>
+					<a :href="skill.url" target="_blank"><p>{{ skill.name }}</p></a>
 				</span>
 		</div>
 	</div>
