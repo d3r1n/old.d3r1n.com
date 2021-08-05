@@ -96,7 +96,7 @@ a {
 }
 
 #github:hover, #spotifyIcon:hover, #discord:hover {
-	transform: scale(1.5) rotate(360deg);
+	transform: scale(1.25) rotate(360deg);
 	color: #6272a4;
 
 }
