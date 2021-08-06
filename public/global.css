@@ -106,9 +106,10 @@ a {
 	width: 30px;
 	height: 30px;
 	border-radius: 200px;
-	margin-left: 310px;
-	margin-top: 170px;
+	margin-left: 315px;
+	margin-top: 175px;
 	background-color: #43b581;
+	border: 10px solid #44475a;
 }
 
 #offline {
@@ -116,9 +117,10 @@ a {
 	width: 30px;
 	height: 30px;
 	border-radius: 200px;
-	margin-left: 310px;
-	margin-top: 170px;
+	margin-left: 315px;
+	margin-top: 175px;
 	background-color: #99aab5;
+	border: 10px solid #44475a;
 }
 
 #idle {
@@ -126,9 +128,10 @@ a {
 	width: 30px;
 	height: 30px;
 	border-radius: 200px;
-	margin-left: 310px;
-	margin-top: 170px;
+	margin-left: 315px;
+	margin-top: 175px;
 	background-color: #faa61a;
+	border: 10px solid #44475a;
 }
 
 #dnd {
@@ -136,9 +139,10 @@ a {
 	width: 30px;
 	height: 30px;
 	border-radius: 200px;
-	margin-left: 310px;
-	margin-top: 170px;
+	margin-left: 315px;
+	margin-top: 175px;
 	background-color: #f04747;
+	border: 10px solid #44475a;
 }
 
 #spotify-btn {
