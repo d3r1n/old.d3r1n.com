@@ -53,8 +53,15 @@ export default {
 		const { data } = await (await fetch("https://api.lanyard.rest/v1/users/704758931343278162")).json()
 		this.lanyard = data || {}
 		
-		if (this.lanyard.discord_status == "online") {
-			this.status = "online"
+		switch (this.lanyard.discord_status) {
+			case "online":
+				this.status = "online"
+			case "offline":
+				this.status = "offline"
+			case "dnd":
+				this.status = "dnd"
+			case "idle":
+				this.status = "idle"
 		}
 
 		const quote = await ( await fetch("https://api.quotable.io/random?minLength=100&maxLength=150")).json()

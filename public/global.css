@@ -106,8 +106,8 @@ a {
 	width: 30px;
 	height: 30px;
 	border-radius: 200px;
-	margin-left: 323px;
-	margin-top: 180px;
+	margin-left: 310px;
+	margin-top: 170px;
 	background-color: #43b581;
 }
 
@@ -116,9 +116,29 @@ a {
 	width: 30px;
 	height: 30px;
 	border-radius: 200px;
-	margin-left: 323px;
-	margin-top: 180px;
+	margin-left: 310px;
+	margin-top: 170px;
 	background-color: #99aab5;
+}
+
+#idle {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 200px;
+	margin-left: 310px;
+	margin-top: 170px;
+	background-color: #faa61a;
+}
+
+#dnd {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 200px;
+	margin-left: 310px;
+	margin-top: 170px;
+	background-color: #f04747;
 }
 
 #spotify-btn {
